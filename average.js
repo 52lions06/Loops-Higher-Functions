@@ -1,6 +1,6 @@
 function average(numbers) {
-  const i = 0;
-  const sum = numbers[0];
+  let i = 0;
+  let sum = numbers[0];
 
   while (i < numbers.length) {
     sum += numbers[i];
@@ -11,3 +11,4 @@ function average(numbers) {
   return average
 
 }
+console.log(average([1,3,5]));
